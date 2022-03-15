@@ -1,0 +1,131 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+  max-height: 1520px;
+  border-bottom: 1px solid #e4e4e4 !important;
+}
+
+.navbar-brand {
+  -webkit-box-align: center !important;
+  outline: none !important;
+  align-items: center !important;
+  display: inline-flex !important;
+  height: 80px !important;
+  position: relative !important;
+  vertical-align: middle !important;
+  z-index: 1 !important;
+  color: rgb(255, 56, 92) !important;
+  text-decoration: none;
+  margin-left: 120px;
+  font-size: 30px;
+}
+
+.header__icon {
+  object-fit: contain;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.header__center {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  max-width: fit-content;
+  padding: 10px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+}
+
+.header__center > input {
+  border: none;
+  padding: 10px;
+  outline-width: 0;
+  /* width: 250px; */
+}
+
+.header__center svg {
+  background-color: #FF385C;
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  color: white;
+  border-radius: 50%;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 28vw;
+  margin-right: 10px;
+}
+
+.header__right a {
+  text-decoration: none;
+  color: black;
+}
+
+.header__right a:hover {
+  color: #ff7779;
+}
+
+.header__right svg {
+  font-size: 26px;
+}
+
+#nav-right .nav {
+  display: inline-block;
+}
+
+#nav-right .nav:hover a {
+    opacity: 0.8;
+}
+
+#nav-right .nav a {
+  color: #000;
+  text-decoration: none;
+  line-height: 58px;
+  padding: 0 5px;
+  display: inline-block;
+}
+
+.subnav {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding: 8px 0px;
+  top: 64%;
+  right: 60px;
+  border-radius: 2px;
+  background-color: white;
+  width: 220px;
+  list-style: none;
+  border: whitesmoke 1px solid;
+  border: 1px solid rgb(230, 223, 223);
+  border-radius: 8px;
+  z-index: 10;
+}
+
+.subnav li a {
+  line-height: 10px !important;
+  padding-left: 20px;
+}
+
+.subnav li:hover {
+  background-color: whitesmoke;
+}
+
+.subnav li {
+  padding: 8px 0;
+}
+
+.nav-user:hover .subnav {
+  display: block;
+}

@@ -1,0 +1,105 @@
+.room {
+    display: flex;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+
+.room:hover {
+    opacity: 0.8;
+    color: rgb(32, 32, 32);
+}
+
+.room > img {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.room__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.room__heart {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.room__button {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 82px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 0;
+}
+
+.paypalRight {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    padding: 0;
+    z-index: 1;
+}
+
+.room__button:hover {
+    /* background-color: rgb(247, 12, 55); */
+    /* color: white; */
+    cursor: pointer;
+}
+
+.room__infoTop {
+    width: 40vw;
+}
+
+.room__infoTop > h3 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.room__infoTop > p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+  }
+  
+.room__infoBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.room__star {
+    color: red;
+}
+
+
+.room__stars {
+    display: flex;
+    align-items: center;
+}
+
+.rooms__price > p {
+    text-align: right;
+  }
+
+.rooms__price {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+
+
+  

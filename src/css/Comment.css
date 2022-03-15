@@ -1,0 +1,109 @@
+.comment {
+    display: flex;
+    position: relative;
+    margin: 0 10px 0 10px;
+    padding: 10px;
+    /* border-bottom: 1px solid lightgray; */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.comment > img, .avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.comment__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.comment__heart {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.comment__infoTop {
+    width: 40vw;
+}
+
+.comment__infoTop > p > label {
+    font-weight: 700;
+    font-size: 1em;
+    margin-right: 15px;
+}
+
+.comment__infoTop > h3 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.comment__infoTop > p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 0;
+  }
+
+.listComment {
+    width: 900px;
+}
+
+
+.listComment__info {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.listComment__info > p {
+    margin-bottom: 5px;
+    font-size: 2em;
+}
+
+.input__comment {
+    width: 100%;
+}
+
+.comment__send {
+    width: 100%;
+    display: flex;
+    position: relative;
+    /* padding: 10px; */
+    /* border-bottom: 1px solid lightgray; */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.comment__send input[type=text] {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin: 0 10px;
+}
+
+.comment__send label {
+    padding: 12px 12px 6px 0;
+    display: inline-block;
+}
+
+.comment__send > button {
+    background-color: rgb(255, 56, 92);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10%;
+}
+
+.comment__send > button:hover {
+    opacity: 0.8;
+}

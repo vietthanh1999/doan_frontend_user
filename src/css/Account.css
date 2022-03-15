@@ -1,0 +1,180 @@
+.info_account {
+    margin-top: 20px;
+}
+
+.info__left {
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.info_one > img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+.info_one > button {
+    margin-left: 26%;
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+.info_one > button:hover {
+    color: gray;
+}
+
+.info {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.info > label {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 700;
+}
+
+.info__two > button{
+    background-color: white;
+    padding: 8px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 8px;
+    margin-left: 72px;
+}
+
+.info__three {
+    margin-bottom: 50px;
+}
+
+.info__three > p {
+    margin-bottom: 0px;
+}
+
+.info__right {
+    margin-left: 60px;
+}
+
+.info__name > button, .btnUnderlined {
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    line-height: 16px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.info__name > button:hover, .info__passwork > button:hover {
+    color:rgb(170, 170, 170);
+}
+
+.form__account {
+    margin-top: 30px;
+}
+
+.row__inputAccount {
+    margin-top: 20px;
+}
+
+.row__inputAccount > textarea {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 6px;
+    height: 100px;
+}
+
+.row__inputAccount > input {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 6px;
+    height: 38px;
+}
+
+.row__inputAccount > p {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.row__btn {
+    /* position: relative; */
+    margin-top: 30px;
+}
+
+.info_two input {
+    height: 100px;
+}
+
+.btnCancelForm {
+    /* position: absolute; */
+    background-color: white;
+    border: none;
+    left: 20px;
+    line-height: 18px;
+    border-bottom: 1px solid gray;
+    padding: 0;
+}
+
+.btnCancelForm:hover {
+    opacity: 0.2;
+}
+
+.btnSaveForm {
+    position: absolute;
+    right: 110px;
+    border: 1px solid gray;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.btnSaveForm:hover {
+    color: white;
+    background-color: black;
+}
+
+.showComment {
+    margin-top: 80px;
+}
+
+.showComment > div {
+    height: 72px;
+    width: 100%;
+    border-bottom: 1px solid rgb(184, 181, 181);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.showComment > button {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 20px;
+}
+
+.showComment > button:hover {
+    opacity: 0.2;
+}
+
+input[type="file"].inputAvatar {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.custom-file-upload:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.file-preview {
+  margin: 0 10px;
+}

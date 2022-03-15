@@ -1,0 +1,414 @@
+.ch__container {
+    position: relative;
+    margin: 0;
+}
+
+.ch__left {
+    background: radial-gradient(circle at center,#FF385C 0%,#E61E4D 27.5%,#E31C5F 40%,#D70466 57.5%,#BD1E59 75%,#BD1E59 100%);
+    /* height: 100%; */
+}
+
+.ch__left > div {
+    width: 100%;
+    height: 640px;
+}
+
+.ch__left > div > label {
+    width: 520px;
+    margin: auto;
+    color: white;
+    font-size: 3.5rem;
+    margin-top: 30%;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.type_house, .ch__number, .ch__image, .ch__name {
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    /* margin-top: 120px;
+    margin-left: 40px; */
+    position: absolute;
+    top: 80px;
+    right: -52px;
+}
+
+.type_house > button {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 1.2rem;
+
+}
+
+.type_house > button:hover {
+    border: 2px solid black !important;
+}
+
+.btn__selected {
+    border: 2px solid black !important;
+}
+
+.ch__action {
+    position: absolute;
+    bottom: 0px;
+    right: -214px;
+    width: 874px;
+    border-top: 1px solid rgb(177, 177, 177);
+    padding-top: 22px;
+    background-color: white;
+    height: 86px;
+}
+
+.btnCancel {
+    position: absolute;
+    background-color: white;
+    border: none;
+    left: 20px;
+    line-height: 18px;
+    border-bottom: 1px solid gray;
+    padding: 0;
+}
+
+.btnCancel:hover {
+    opacity: 0.2;
+}
+
+.btnSave {
+    position: absolute;
+    right: 30px;
+    border: 1px solid gray;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.btnSave:hover {
+    color: white;
+    background-color: black;
+}
+
+/* ---------ADDRESS--------------- */
+.ch__address {
+    position: absolute;
+    top: 70px;
+    right: -52px;
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 32px 0;
+    border-radius: 16px;
+}
+
+.ch__address > label {
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.ch__address > input, .ch__address > select {
+    margin: auto;
+    width:  460px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    height: 46px;
+    padding-left: 12px;
+}
+
+.ch__address > button {
+    margin: auto;
+    margin-top: 20px;
+    width:  480px;
+    background-color: black;
+    color: white;
+    width: 106px;
+    height: 42px;
+    border-radius: 12px;
+}
+
+.ch__input-address {
+    position: absolute;
+    right: -4%;
+    top: 30%;
+    width: 520px;
+    border: 1px solid gray;
+    border-radius: 16px;
+    background-color: white;
+    height: 62px;
+}
+
+.ch__input-address > input {
+    width: 460px;
+    margin-left: 10px;
+    height: 37px;
+    border: none;
+    margin-top: 10px
+}
+
+.icon__map {
+    font-size: 28px;
+    margin-left: 6px;
+    margin-top: 0px;
+}
+
+.ch__number {
+    top: 160px;
+}
+
+.info__number {
+    display: inline-flex;
+    width: 520px;
+}
+
+.info__number > div {
+    width: 120px;
+}
+
+.info__number div {
+    font-size: 1.5rem;
+    width: 260px;
+    margin-bottom: 20px;
+}
+
+.info__number button {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid gray;
+    font-size: 1.2rem;
+}
+
+.info__number input {
+    width: 32px;
+    height: 32px;
+    padding-left: 10px;
+    border: none;
+}
+
+.info__number button svg {
+    pointer-events: none
+}
+
+/* -------------IMAGE------------- */
+.ch__image {
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 50px 0;
+    width: 480px;
+    text-align: center;
+}
+
+.icon__image svg {
+    height: 64px;
+    width: 64px;
+    fill: currentcolor;
+    margin-bottom: 10px;
+}
+
+.label__image {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+/* .input__file {
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+} */
+
+.input__file {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.ch__name {
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 50px 0;
+    width: 480px;
+    text-align: center;
+}
+
+.label__name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.input__name, .input__price {
+    width: 380px;
+    border: 1px gray solid;
+    border-radius: 8px;
+    height: 46px;
+}
+
+.textarea__price {
+    width: 380px;
+    border: 1px gray solid;
+    border-radius: 8px;
+    height: 120px;
+}
+
+.input__name {
+    margin-bottom: 30px;
+}
+
+
+/* --------------------- */
+
+.uh_container {
+    position: relative;
+    margin: 40px 0 0 40px;
+}
+
+.uh__tab-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.uh__tab-menu li a {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    padding: 20px 0;
+}
+
+.uh__tab-menu li {
+    padding: 10px 0;
+}
+
+.uh__tab-menu li:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.uh__tab-info {
+    display: flex;
+    position: relative;
+}
+
+.uh__tab-info button {
+    position: absolute;
+    right: 0;
+    border: none;
+    background: transparent;
+    border-radius: 6px;
+    opacity: 0.8;
+}
+
+.uh__tab-info button:hover {
+    background: rgb(243, 238, 238);
+    opacity: 1;
+}
+
+.uh__image-label, .uh__label {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.uh__label-small {
+    font-size: 0.8rem;
+    width: 620px;
+}
+
+.delete-margin {
+    margin: 0;
+}
+
+.uh__info {
+    border: 1px solid rgb(206, 203, 203);
+    border-radius: 6px;
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 20px;
+}
+
+.uh__info input, .uh__info select {
+    border: 1px solid rgb(206, 203, 203);
+    border-radius: 8px;
+    height: 50px;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.uh__button {
+    border-top: 1px solid rgb(206, 230, 230);
+    position: relative;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+}
+
+.uh__button button {
+    background: transparent;
+    border: 1px solid rgb(206, 230, 230);
+    height: 40px;
+    width: 80px;
+    border-radius: 6px;
+}
+
+.uh__button button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.uh__btn-save {
+    position: absolute;
+    right: 10px;
+}
+
+/* ----Guest---- */
+.uh__guest {
+    display: flex;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.uh__right {
+    position: absolute;
+    right: 0;
+
+}
+
+.uh__right > div {
+    width: 120px;
+}
+
+.uh__right div {
+    font-size: 1.5rem;
+    width: 260px;
+    margin-bottom: 20px;
+}
+
+.uh__right button {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid gray;
+    font-size: 1.2rem;
+}
+
+.uh__right input {
+    width: 32px;
+    height: 32px;
+    padding-left: 10px;
+    border: none;
+}
+
+.uh__right button svg {
+    pointer-events: none
+}
